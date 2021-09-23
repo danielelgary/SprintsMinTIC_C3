@@ -1,0 +1,99 @@
+body
+{
+    margin: 0px;
+}
+
+#landing_navbar
+{
+    margin: 0 auto;
+    padding: 0px;
+    float: left;
+    background-color: crimson;
+    width: 18%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+#navbar_logo
+{
+    margin: auto;
+    display: block;
+    height: auto;
+    padding: 0px;
+    border-radius: 25px;
+    margin-top: 2%;
+    width: 90%;
+}
+#landing_navbar footer
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+}
+#landing_navbar footer p
+{
+    display: block;
+    margin: auto;
+    position: absolute;
+    bottom: 100%;
+    font-size: 12px;
+}
+#landing_navbar footer button
+{
+    width: 50%;
+    margin: auto;
+    background-color: cadetblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: large;
+}
+
+
+header
+{
+    float:right;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82%;
+    margin: 0px;
+    padding-left: 0px;  
+}
+
+#btn_irRegistro
+{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#link_registro
+{
+    text-decoration: none;
+}
+
+form
+{
+    float:right;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82%;
+    padding-left: 0px;  
+}
+
+.filasTabla
+{
+    text-align: justify;
+}
