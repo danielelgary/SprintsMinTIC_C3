@@ -1,0 +1,208 @@
+
+*{
+  /*border: 1px solid black;*/
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  width: 100%;
+  height: 100%;
+}
+
+h1{
+  font-family: fantasy;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+h3{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+h2 {
+  text-align: justify;
+  margin-top: 20px;
+}
+
+h5{
+  text-align: center;
+  margin-top: 10px;
+}
+
+label {
+  width: 100%;
+  height: 100%;
+}
+
+ul li:hover {
+  background: #60a3bc;
+}
+
+ul li a {
+  color: #e58e26;
+  text-decoration: none;
+}
+
+p{
+  text-align: justify;
+}
+
+
+/* FORMATOS DE ESTILO PARA EL INDEX */
+/********************************************************************************************************/
+  
+#contenedorNavegacion{
+  position: fixed;  height: 100%;
+  width: 15%;
+  top: 0%;
+  left: 0%;
+}
+
+#landing_navbar{
+  background-color: #0a3d62;
+  position: relative;
+  height: 100%;
+}
+
+#contenedorMenuNavegacion{
+  position: absolute;
+  top: 0%;
+  width: 100%;
+}
+
+#navbar_logo{
+  width: 70%;
+  display: block;
+  margin: 0 auto; 
+}
+
+#informacion {
+  display: list-item;
+  padding: 4%;
+  transition: all ease-in-out 250ms;
+}
+
+#contenedorBotonRegistro{
+  position: absolute;
+  width: 100%;
+  bottom: 4%;
+  text-align: center;
+}
+
+#btn_irRegistro{
+  background-color: #3c6382;
+  width: 140px;
+  height: 35px;
+  border-style:double;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+#link_registro{
+  color: #e58e26;
+  text-decoration: none;
+}
+
+#contenedorContenido{
+  background-color: #3c6382;
+  position: fixed;
+  width: 85%;
+  left: 15%;
+  height: 100vh;
+  padding: 4%;
+  text-align: center;
+  overflow-y: scroll;
+}
+
+#contenedorSeccionPpal{
+margin-bottom: 4%;
+}
+
+#marcotexto{
+  width: 92%;
+  margin: 0 auto;
+}
+
+#explicacion_proyecto{
+  margin: 1%;
+  font-size: 20px;
+}
+
+#contenedorSeccionesArticulos{
+  display: flex;
+  justify-content: space-around;
+  align-content: stretch;
+  align-items: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  /*background-color: gold;*/
+}
+
+.articulosInformativos{
+  flex: 0 0 50%;
+  margin-top: 4%;
+}
+
+.txt_Articulos{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2%;
+
+  /*background-color: coral;*/
+}
+
+#img_Industrial{
+  width: 80%;
+}
+
+#img_Transporte{
+  width: 80%;
+}
+
+#img_Agricultura{
+  width: 80%;
+}
+
+#img_TransferenciaDatosIoT{
+  width: 80%;
+  /*background-color: deeppink;*/
+}
+
+
+
+
+
+/* FORMATOS DE ESTILO PARA EL REGISTRO */
+/********************************************************************************************************/
+
+#form_registro_usuario{
+/*ACA PUEDE IR TODO LO DE #fiel_reg QUE ES UN id INVENTADO*/
+}
+
+#fiel_reg{
+  width: 500px;
+  height: 200px;
+  border-style: solid;
+  border-color: blue;
+  border-width: 10px;
+  margin: 40px;
+  font-size: 20px;
+}
+
+#btn_enviar_registro{
+  width: 140px;
+  height: 35px;
+  margin: auto;
+  margin-top: 50px;
+  display: block; 
+  border-style: solid;
+}
+
+#logo_registro{
+  margin: -285px 0px 0px 740px;
+  position: absolute; 
+}
