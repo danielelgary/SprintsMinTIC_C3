@@ -19,7 +19,7 @@
             <table id="tabla">
                 <tr>
                     <td><label for="nom">Nombre: </label></td>
-                    <td><input type="text"  id="in_usuario" name="txt_nombre" value="" size="50" maxlength="40">
+                    <td><input type="text"  id="in_usuario" name="txt_nombre" size="50" maxlength="40">
                     </td>
                 </tr>
                 <tr>
@@ -28,7 +28,7 @@
                 </tr>
             </table>
 
-            <button name="enviar" type="submit" id="btn_enviar_registro" onclick="validar_usuarioContrasena(document.getElementById('in_usuario').value, document.getElementById('in_contrasena').value)" >Enviar</button>
+            <button name="enviar" type="submit" id="btn_enviar_registro" onclick="agregarRegistro()" >Enviar</button>
 
         </form>
 

@@ -4,36 +4,51 @@
     <meta charset="utf-8">
     <title>Registro de usuarios</title>
 
-    <script type="text/javascript" src="validaciones.js"></script>
+    <script type="text/javascript" src="registro.js"></script>
 
     <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
-    <h1><center>Realice aqui su registro</h1></center>
 
-    <fieldset id="fiel_reg">
-        <legend><b>Informacion personal</b></legend>
+    <div id="contenedorBodyRegistro">   
 
-        <form id="form_registro_usuario" method="post"> <!--get (ESTE VISUALIZA TODO LO ENVIADO EN LA url)-->
+        <div id="contenedorCabeceraRegistro">
+            <h1><center>Realice aqui su registro</center></h1>
+        </div>
+
+        <div id="contenedorContenidoRegistro">
             
-            <table id="tabla">
-                <tr>
-                    <td><label for="nom">Nombre: </label></td>
-                    <td><input type="text"  id="in_usuario" name="txt_nombre" value="" size="50" maxlength="40">
-                    </td>
-                </tr>
-                <tr>
-                    <td><label for="nom">Contraseña: </label></td>
-                    <td><input type="password" id="in_contrasena" name="txt_password"></td>
-                </tr>
-            </table>
+            <fieldset id="fiel_reg">
 
-            <button name="enviar" type="submit" id="btn_enviar_registro" onclick="validar_usuarioContrasena(document.getElementById('in_usuario').value, document.getElementById('in_contrasena').value)" >Enviar</button>
+                <legend><b>Informacion personal</b></legend>
+    
+                <form id="form_registro_usuario" method="post"> <!--get (ESTE VISUALIZA TODO LO ENVIADO EN LA url)-->
+                    
+                    <table id="tabla">
+                        <tr>
+                            <td><label for="nom">Nombre: </label></td>
+                            <td><input type="text"  id="in_usuario" name="txt_nombre" maxlength="40">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="nom">Contraseña: </label></td>
+                            <td><input type="password" id="in_contrasena" name="txt_password"></td>
+                        </tr>
+                    </table>
+    
+                    <label for="btn_enviar_registro">
+                        <button name="enviar" type="button" id="btn_enviar_registro" onclick="agregarRegistro()">Enviar</button>
+                    </label>
+    
+                </form>
+    
+            </fieldset>
+    
+            <img src="icono.png" id="logo_registro">
 
-        </form>
+        </div>
 
-    </fieldset>
 
-    <img src="icono.png" id="logo_registro">
+    </div>
 </body>
 </html>
